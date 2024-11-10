@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root {
+  /* colors */
+  --sea-blue: 2 70 177;
+  --dark-blue: 2 20 68;
+  --foreground: 255 255 255;
+  --background: 0 0 0;
+  --background-alt: 0 9 125;
+  
+  /* boundary */
+  --web-site-content-boundary: clamp(320px, 80%, 960px);
+  --box-shadow: 0 0 4px rgb(var(--background) / .15);
+  --transition: .3s;
+}
+
+/*===================================| BASIC-RESET |===================================*/
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body, body * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+button, input[type="submit"] {
+  border: none;
+  outline: none;
+  background: none;
+  cursor: pointer;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+}
+
+/*===================================| BASIC-CONTENT |===================================*/
+
+.container {
+  margin: auto;
+  width: var(--web-site-content-boundary);
+}
+
+/*===================================| HEADER |===================================*/
+header,
+header .header-banniere img {
+  height: 200px;
+}
+
+header {
+  color: rgb(var(--foreground));
+  height: max-content;
+  background: rgb(var(--dark-blue));
+  border-bottom: 1px solid rgb(var(--foreground));
+
+  & > div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  & figure img {
+    display: block;
+  }
+
+  & .header-logo {
+    padding-right: 70px;
+    align-items: flex-end;
+    display: flex;
+    gap: 20px;
+
+    & figcaption {
+      text-align: right;
+      font-size: 20px;
+      font-weight: 600;
+      padding-bottom: 20px;
+    }
+
+    & img {
+      width: 160px;
+    }
+  }
+}
+
+/*===================================| MAIN |===================================*/
+
+main {
+  .referents-surete {
+    margin: auto;
+  } 
+}
