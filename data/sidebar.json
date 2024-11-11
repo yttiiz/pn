@@ -136,8 +136,20 @@
 						"href": "#principes_generaux",
 						"content": [
 							{
-								"item": "",
-								"href": ""
+								"item": "Une approche globale",
+								"href": "#approche_globale"
+							},
+							{
+								"item": "Complémentarité",
+								"href": "#complementarite"
+							},
+							{
+								"item": "Homogénéité",
+								"href": "#complementarite"
+							},
+							{
+								"item": "Redondance",
+								"href": "#complementarite"
 							}
 						]
 					}
