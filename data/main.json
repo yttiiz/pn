@@ -114,9 +114,44 @@
 	},
   "3": {
     "title": "Déterminer les principes de la prévention situationnelle",
+    "image": {
+      "src": "./img/principe_defense_cible.jpg",
+      "alt": "Principes de défense d'une cible"
+    },
     "id": "principes_prevention_situationnelle",
     "subtitles": [
-
+      {
+        "subtitle": "Quelques principes généraux",
+        "id": "principes_generaux",
+        "items": [
+          {
+            "item": "Une approche globale",
+            "figures": [
+              {
+                "textContent": "<b>Périphérie</b>\nEnsemble des zones situées au-delà de l’emprise du site (façade ou clôture non comprise) et qui n’appartiennent pas au maître des lieux.",
+                "image": {
+                  "src": "./img/peripherie_illustration.jpg",
+                  "alt": "Périphérie illustration"
+                }
+              },
+              {
+                "textContent": "<b>Périmétrie</b>\nEnsemble des espaces situés entre la clôture (incluse) et les bâtiments du site (façade et ouvrants compris). Les parkings privés, pelouses cheminements et autres dépendances sont notamment inclus dans la périmétrie.",
+                "image": {
+                  "src": "./img/perimetrie_illustration.jpg",
+                  "alt": "Périmétrie illustration"
+                }
+              },
+              {
+                "textContent": "<b>Volumétrie</b>\nEnsemble des volumes intérieurs du site (à usage d’habitation, industriels, artisanaux, commerciaux, etc.).",
+                "image": {
+                  "src": "./img/volumetrie_illustration.jpg",
+                  "alt": "Volumétrie illustration"
+                }
+              }
+            ]
+          }
+        ]
+      }
     ]
   }
 }

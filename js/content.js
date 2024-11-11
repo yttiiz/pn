@@ -11,7 +11,7 @@ const data = await fetch("./data/main.json")
 
 // Hydratation
 Object.keys(data).map((key, index) => {
-	const { title, subtitles, id } = data[key];
+	const { title, subtitles, image, id } = data[key];
 	const slideContainer = createElement("div");
 	const titleElement = createElement("h2");
 
@@ -25,6 +25,15 @@ Object.keys(data).map((key, index) => {
 	});
 
 	section.appendChild(slideContainer);
+
+  if (image) {
+    const { src, alt } = image;
+    const imageElement = createElement("img");
+    imageElement.src = src;
+    imageElement.alt = alt;
+
+    slideContainer.appendChild(imageElement);
+  }
 
 	if (subtitles) {
 		for (const subtitleObject of subtitles) {
@@ -48,7 +57,7 @@ Object.keys(data).map((key, index) => {
 
 			if (items) {
 				for (const itemObject of items) {
-					const { item, id: itemId, textContent: itemTextContent } = itemObject;
+					const { item, id: itemId, textContent: itemTextContent, figures } = itemObject;
 					const itemElement = createElement("h4");
 					const paragraphElement = createElement("p");
 
@@ -59,11 +68,34 @@ Object.keys(data).map((key, index) => {
 						parent: slideContainer,
 					});
 
-					insertElement({
-						element: paragraphElement,
-						textContent: itemTextContent,
-						parent: slideContainer,
-					});
+          if (figures) {
+            for ( const figure of figures) {
+              const itemImageElement = createElement("img");
+              const figureContainer = createElement("figure");
+              const figcaptionElement = createElement("figcaption");
+              const { textContent: figureTextContent, image: { src, alt } } = figure;
+              
+              itemImageElement.src = src;
+              itemImageElement.alt = alt;
+  
+              insertElement({
+                element: figcaptionElement,
+                textContent: figureTextContent,
+                parent: figureContainer,
+              });
+  
+              figureContainer.appendChild(itemImageElement);
+              slideContainer.appendChild(figureContainer);
+            }
+
+          } else {
+            insertElement({
+              element: paragraphElement,
+              textContent: itemTextContent,
+              parent: slideContainer,
+            });
+          }
+
 				}
 			}
 		}
