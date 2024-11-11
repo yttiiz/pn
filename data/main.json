@@ -180,7 +180,11 @@
 								}
 							}
 						]
-					}
+					},
+          {
+            "item": "Visibilité",
+            "textContent": "Voir et être vu de jour comme de nuit pour éviter les caches et les pièges"
+          }
 				]
 			}
 		]
