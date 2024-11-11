@@ -16,10 +16,6 @@
 
 /*===================================| BASIC-RESET |===================================*/
 
-::-webkit-scrollbar {
-  display: none;
-}
-
 html {
   scroll-behavior: smooth;
 }
@@ -92,6 +88,34 @@ header {
 /*===================================| MAIN |===================================*/
 
 main {
+  & > div {
+    display: flex;
+  }
+
+  & aside {
+    padding: 20px;
+    padding-top: 50px;
+    width: 200px;
+    background: rgb(var(--background) / .05);
+
+    & .sidebar ul {
+      display: grid;
+      gap: 10px;
+    }
+
+    & .sidebar li {
+      margin-left: 15px;
+    }
+
+    & .sidebar a {
+      text-decoration: none;
+    }
+
+    & .sidebar a:hover {
+      text-decoration: underline;
+    }
+  }
+  
   .referents-surete {
     margin: auto;
   } 

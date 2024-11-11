@@ -1,0 +1,2 @@
+import "./js/sidebar.js";
+

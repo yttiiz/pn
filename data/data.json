@@ -1,0 +1,40 @@
+{
+	"sidebar-content": [
+		{
+			"title": "La Police Nationale à votre service",
+			"href": "#police_nationale_a_votre_service",
+			"subtitles": [
+				{
+					"1": {
+						"subtitle": "Forces de Sécurité de l'Etat",
+						"href": "#force_securite_de_l_etat",
+						"content": [
+							{
+								"item": "La Police Nationale",
+								"href": "#police_nationale"
+							},
+							{
+								"item": "La Gendarmerie Nationale",
+								"href": "#gendarmerie_nationale"
+							}
+						]
+					},
+					"2": {
+						"subtitle": "Objectifs",
+						"href": "#objectifs",
+						"content": [
+							{
+								"item": "Réduire le sentiment d'insécurité de la population, que celui-ci soit justifié ou non",
+								"href": "#reduire_le_sentiment_d_insecurité"
+							},
+							{
+								"item": "Et améliorer les rapports entre les groupes sociaux",
+								"href": "#ameliorer_les_rapports_entre_les_groupes_sociaux"
+							}
+						]
+					}
+				}
+			]
+		}
+	]
+}
