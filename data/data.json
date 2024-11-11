@@ -32,6 +32,28 @@
 								"href": "#ameliorer_les_rapports_entre_les_groupes_sociaux"
 							}
 						]
+					},
+					"3": {
+						"subtitle": "Moyens d’action",
+						"href": "#moyens_d_action",
+						"content": [
+							{
+								"item": "la prévention",
+								"href": "#la_prévention"
+							},
+							{
+								"item": "la dissuasion",
+								"href": "#la_dissuasion"
+							},
+							{
+								"item": "et la répression",
+								"href": "#et_la_répression"
+							},
+							{
+								"item": "Le plan VIGIPIRATE",
+								"href": "#le_plan_vigipirate"
+							}
+						]
 					}
 				}
 			]

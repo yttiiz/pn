@@ -5,13 +5,13 @@ const data = await fetch("./data/data.json")
 	.then((data) => data);
 
 // Hydratation
-Object.keys(data).map((key) => {
+Object.keys(data).map((key, index) => {
 	for (const titleItem of data[key]) {
 		const mainItem = document.createElement("ul");
 		const mainLink = document.createElement("a");
 
 		if (titleItem.subtitles.length) {
-			mainLink.textContent = titleItem.title;
+			mainLink.textContent = `${index >= 10 ? index + 1 : `0${index + 1}`} - ${titleItem.title}`;
 			mainLink.href = titleItem.href;
 			mainItem.appendChild(mainLink);
 
