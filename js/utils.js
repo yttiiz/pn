@@ -12,9 +12,16 @@ export const createElement = (selector) => document.createElement(selector);
  * }} 
  */
 export const insertElement = ({ element, textContent, id, parent }) => {
-  element.textContent = textContent;
   if (id) {
     element.id = id;
+  }
+  
+  if (textContent.includes("\n")) {
+    textContent = textContent.replaceAll("\n", "<br />");
+    element.innerHTML = textContent;
+
+  } else {
+    element.textContent = textContent;
   }
 
   parent.appendChild(element);

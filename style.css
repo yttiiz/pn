@@ -84,14 +84,21 @@ header {
 /*===================================| MAIN |===================================*/
 
 main {
+  position: relative;
+
   & > div {
     display: flex;
     gap: 30px ;
   }
 
+  & .aside-container {
+    width: 20%;
+  }
+
   & aside {
+    position: sticky;
+    top: 0;
     padding: 20px;
-    width: 250px;
     background: linear-gradient(rgb(var(--background) / .05), transparent);
 
     & .sidebar ul {
@@ -113,6 +120,10 @@ main {
     }
   }
 
+  & .sections {
+    width: 80%;
+  }
+
   & #website-introduction {
     height: calc(100vh - 200px);
   }
@@ -124,5 +135,53 @@ main {
 
   & #website-introduction > div {
     display: flex;
+  }
+
+  #slides {
+    .slide-container {
+      position: relative;
+      min-height: 100vh;
+    }
+
+    & h2 {
+      text-transform: uppercase;
+      font-size: 32px;
+      line-height: 46px;
+      color: rgb(var(--sea-blue));
+      margin-bottom: 20px;
+    }
+    
+    & h3 {
+      font-size: 26px;
+      line-height: 38px;
+      color: rgb(var(--dark-blue));
+      border-bottom: 1px solid rgb(var(--sea-blue));
+      margin-bottom: 10px;
+    }
+
+    & h4 {
+      font-size: 22px;
+      line-height: 32px;
+      margin-bottom: 10px;
+    }
+    
+    & p {
+      font-size: 18px;
+      line-height: 28px;
+      margin-bottom: 10px;
+    }
+
+    & .slide-number {
+      position: absolute;
+      right: 0;
+      width: 35px;
+      aspect-ratio: 1 / 1;
+      border-radius: 50%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      color: rgb(var(--foreground));
+      background: rgb(var(--sea-blue));
+    }
   }
 }
