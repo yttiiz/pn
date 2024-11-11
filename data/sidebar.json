@@ -150,6 +150,14 @@
 							{
 								"item": "Redondance",
 								"href": "#complementarite"
+							},
+							{
+								"item": "La stratégie de défense d’un site",
+								"href": "#strategie_defense_site"
+							},
+							{
+								"item": "Huit haut principes d'actions",
+								"href": "#huit_haut_principe_action"
 							}
 						]
 					}
@@ -157,8 +165,8 @@
 			]
 		},
 		{
-			"title": "Les fondamentaux de la sûreté",
-			"href": "#les_fondamentaux_de_la_surete",
+			"title": "",
+			"href": "#",
 			"subtitles": [
 				{
 					"1": {

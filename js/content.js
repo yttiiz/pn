@@ -72,17 +72,20 @@ Object.keys(data).map((key, index) => {
             for ( const figure of figures) {
               const itemImageElement = createElement("img");
               const figureContainer = createElement("figure");
-              const figcaptionElement = createElement("figcaption");
               const { textContent: figureTextContent, image: { src, alt } } = figure;
               
               itemImageElement.src = src;
               itemImageElement.alt = alt;
   
-              insertElement({
-                element: figcaptionElement,
-                textContent: figureTextContent,
-                parent: figureContainer,
-              });
+              if (figureTextContent) {
+                const figcaptionElement = createElement("figcaption");
+
+                insertElement({
+                  element: figcaptionElement,
+                  textContent: figureTextContent,
+                  parent: figureContainer,
+                });
+              }
   
               figureContainer.appendChild(itemImageElement);
               slideContainer.appendChild(figureContainer);

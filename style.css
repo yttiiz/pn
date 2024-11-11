@@ -195,6 +195,10 @@ main {
 			);
 		}
 
+    & p + h4 {
+      margin-top: 40px;
+    }
+
 		& p,
     & figcaption {
 			font-size: 18px;
@@ -209,11 +213,11 @@ main {
     }
 
     & img {
+      width: 100%;
       height: auto;
     }
     
     & h2 + img {
-      width: 100%;
       margin-bottom: 50px;
     }
 
