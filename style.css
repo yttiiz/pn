@@ -113,16 +113,16 @@ main {
     }
   }
 
-  & #website_introduction {
+  & #website-introduction {
     height: calc(100vh - 200px);
   }
 
   & aside,
-  & #website_introduction > div {
+  & #website-introduction > div {
     padding-top: 50px;
   }
 
-  & #website_introduction > div {
+  & #website-introduction > div {
     display: flex;
   }
 }

@@ -1,14 +1,16 @@
+import { createElement } from "./utils.js";
+
 // Elements
 const sidebar = document.querySelector(".sidebar");
-const data = await fetch("./data/data.json")
+const data = await fetch("./data/sidebar.json")
 	.then((data) => data.json())
 	.then((data) => data);
 
 // Hydratation
 Object.keys(data).map((key, index) => {
 	for (const titleItem of data[key]) {
-		const mainItem = document.createElement("ul");
-		const mainLink = document.createElement("a");
+		const mainItem = createElement("ul");
+		const mainLink = createElement("a");
 
 		if (titleItem.subtitles.length) {
 			mainLink.textContent = `${index >= 10 ? index + 1 : `0${index + 1}`} - ${titleItem.title}`;
@@ -17,11 +19,11 @@ Object.keys(data).map((key, index) => {
 
 			for (const subtitleKey of Object.keys(titleItem.subtitles[0])) {
 				const subtitleItem = titleItem.subtitles[0][subtitleKey];
-				const secondaryList = document.createElement("li");
+				const secondaryList = createElement("li");
 
 				if (subtitleItem.content.length) {
-					const item = document.createElement("ul");
-					const link = document.createElement("a");
+					const item = createElement("ul");
+					const link = createElement("a");
 
 					link.textContent = subtitleItem.subtitle;
 					link.href = subtitleItem.href;
@@ -30,8 +32,8 @@ Object.keys(data).map((key, index) => {
 					secondaryList.appendChild(item);
 
 					for (const lastItem of subtitleItem.content) {
-						const tercaryItem = document.createElement("li");
-						const tercaryLink = document.createElement("a");
+						const tercaryItem = createElement("li");
+						const tercaryLink = createElement("a");
 
 						tercaryLink.textContent = lastItem.item;
 						tercaryLink.href = lastItem.href;
