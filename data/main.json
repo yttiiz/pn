@@ -1,0 +1,42 @@
+{
+  "1": {
+    "title": "La police nationale à votre service",
+    "id": "police_nationale_a_votre_service",
+    "subtitles": [
+      {
+        "subtitle": "Forces de Sécurité de l’État",
+        "id": "force_securite_de_l_etat",
+        "textContent": "Article XII de la DÉCLARATION DES DROITS DE L'HOMME ET DU CITOYEN DE 1789. La garantie des droits de l'Homme et du Citoyen nécessite une force publique. Cette force est donc instituée pour l'avantage de tous et non pour l'utilité particulière de ceux auxquels elle est confiée.",
+        "items": [
+          {
+            "item": "La Police Nationale :",
+            "id": "police_nationale",
+            "textContent": "1ère Force de Sécurité en France : environ 250 000 effectifs\nZones urbaines : 20% du territoire national\n80% de la délinquance du territoire national"
+          },
+          {
+            "item": "La Gendarmerie Nationale :",
+            "id": "gendarmerie_nationale",
+            "textContent": "2ème Force de Sécurité en France: environ 100 000\nZones rurales : 80% du territoire nationale\n20% de la délinquance du territoire national"
+          }
+        ]
+      },
+      {
+        "subtitle": "Objectifs",
+        "id": "objectifs",
+        "textContent": "Réduire le sentiment d'insécurité de la population, que celui-ci soit justifié ou non\nEt améliorer les rapports entre les groupes sociaux"
+      },
+      {
+        "subtitle": "Moyens d’action",
+        "id": "moyens_d_action",
+        "textContent": "la prévention\nla dissuasion\net la répression",
+        "items": [
+          {
+            "item": "Le plan VIGIPIRATE",
+            "id": "le_plan_vigipirate",
+            "textContent": "VIGIlance Protection des Installations contre les Risques d’Attentats TErroristes\nUn des outils du dispositif français permanent de lutte contre le terrorisme.\nS’applique à tous les grands domaines d’activité de la société (les transports, la santé, l’alimentation, les réseaux d’énergie, la sécurité des systèmes d’information…).\nIl vise à associer tous les acteurs de la nation susceptibles de contribuer à la vigilance, à la prévention et à la protection contre la menace terroriste : l’État, les collectivités territoriales, les opérateurs, les citoyens."
+          }
+        ]
+      }
+    ]
+  }
+}
