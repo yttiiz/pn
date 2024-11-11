@@ -1,42 +1,122 @@
 {
-  "1": {
-    "title": "La police nationale à votre service",
-    "id": "police_nationale_a_votre_service",
+	"1": {
+		"title": "La police nationale à votre service",
+		"id": "police_nationale_a_votre_service",
+		"subtitles": [
+			{
+				"subtitle": "Forces de Sécurité de l’État",
+				"id": "force_securite_de_l_etat",
+				"textContent": "Article XII de la DÉCLARATION DES DROITS DE L'HOMME ET DU CITOYEN DE 1789. La garantie des droits de l'Homme et du Citoyen nécessite une force publique. Cette force est donc instituée pour l'avantage de tous et non pour l'utilité particulière de ceux auxquels elle est confiée.",
+				"items": [
+					{
+						"item": "La Police Nationale :",
+						"id": "police_nationale",
+						"textContent": "1ère Force de Sécurité en France : environ 250 000 effectifs\nZones urbaines : 20% du territoire national\n80% de la délinquance du territoire national"
+					},
+					{
+						"item": "La Gendarmerie Nationale :",
+						"id": "gendarmerie_nationale",
+						"textContent": "2ème Force de Sécurité en France: environ 100 000\nZones rurales : 80% du territoire nationale\n20% de la délinquance du territoire national"
+					}
+				]
+			},
+			{
+				"subtitle": "Objectifs",
+				"id": "objectifs",
+				"textContent": "Réduire le sentiment d'insécurité de la population, que celui-ci soit justifié ou non\nEt améliorer les rapports entre les groupes sociaux"
+			},
+			{
+				"subtitle": "Moyens d’action",
+				"id": "moyens_d_action",
+				"textContent": "la prévention\nla dissuasion\net la répression",
+				"items": [
+					{
+						"item": "Le plan VIGIPIRATE",
+						"id": "le_plan_vigipirate",
+						"textContent": "VIGIlance Protection des Installations contre les Risques d’Attentats TErroristes\nUn des outils du dispositif français permanent de lutte contre le terrorisme.\nS’applique à tous les grands domaines d’activité de la société (les transports, la santé, l’alimentation, les réseaux d’énergie, la sécurité des systèmes d’information…).\nIl vise à associer tous les acteurs de la nation susceptibles de contribuer à la vigilance, à la prévention et à la protection contre la menace terroriste : l’État, les collectivités territoriales, les opérateurs, les citoyens."
+					}
+				]
+			}
+		]
+	},
+	"2": {
+		"title": "Les fondamentaux de la sûreté",
+		"id": "les_fondamentaux_de_la_surete",
+		"subtitles": [
+			{
+				"subtitle": "Lutter contre la malveillance : sûreté ou sécurité ?",
+				"id": "surete_ou_securite",
+				"items": [
+					{
+						"item": "Sécurité",
+						"textContent": "<b>Objectif</b> : prévenir et lutter contre les <b>aléas non intentionnels</b> qui menacent une population."
+					},
+					{
+						"item": "Prévention des Erreurs/Dangers :",
+						"textContent": "Erreur : Acte ou omission qui cause un dommage <b>involontaire</b> à autrui.\nÉtat d'un esprit qui se trompe, qui prend le faux pour le vrai, défaut de jugement ou d’appréciation.\n<b>Spectre</b> : inondation, accident industriel, épidémie, feu de forêt\n<b>Terminologie</b> : « sécurité routière », « sécurité contre l’incendie », « poste central de sécurité ».\n<b>Attention</b> : Certaines erreurs peuvent être sanctionnées, d’une sanction pénale et/ou disciplinaire."
+					},
+					{
+						"item": "Sûreté",
+						"textContent": "<b>Objectif</b> : prévenir et lutter contre les atteintes volontaires aux personnes, aux biens, aux sites."
+					},
+					{
+						"item": "Prévention des Fautes/Menaces :",
+						"textContent": "<b>Faute: Acte ou omission qui cause un dommage volontaire à autrui</b>.\n<b>Spectre</b> : incivilité, délinquance de voie publique, violences urbaines, tuerie de masse, acte terroriste.\n<b>Terminologie</b> : « sûreté bâtimentaire », « mise en sûreté », « poste central de sûreté »."
+					},
+					{
+						"item": "Risque",
+						"textContent": "<b>Degré de probabilité</b> qu’un dommage soit infligé."
+					}
+				]
+			},
+			{
+				"subtitle": "Un champ d’étude : la prévention situationnelle",
+				"id": "prevention_situationnelle",
+				"textContent": "Un des éléments clé de la politique de prévention de la délinquance.",
+				"items": [
+					{
+						"item": "La définition légale :",
+						"textContent": "C'est l'ensemble des mesures d'urbanisme, d'architecture, technique, organisationnelle et humaine visant à prévenir la commission d'acte délictueux ou à les rendre moins profitable."
+					},
+					{
+						"item": "Origine de la prévention situationnelle"
+					},
+					{
+						"item": "Urbanisme et sentiment d’insécurité",
+						"textContent": "Jane JACOBS (États-Unis, 1916-2006) : la conception urbaine doit produire de la sécurité.\nLes espaces très fréquentés semblent plus sûrs : on parle aujourd’hui de surveillance partagée.\n« Il doit y avoir des yeux dans la rue. »"
+					},
+					{
+						"item": "Les « espaces défendables »",
+						"textContent": "Oscar NEWMAN (Canada, 1935-2004) : architecture et environnement influencent la criminalité.\nLes tours de logements déresponsabilisent leurs résidents et diluent le contrôle social.\nEspace défendable : « environnement résidentiel dont les caractéristiques physiques fonctionnent pour permettre aux habitants eux-mêmes de devenir des agents-clés pour assurer leur sécurité. »"
+					},
+					{
+						"item": "Le choix rationnel du délinquant",
+						"textContent": "Ronald CLARKE (Royaume-Uni, 1941- ) : le passage à l’acte est le fruit d’un calcul préalable.\nLe délinquant évalue la difficulté, le profit escompté et les risques encourus.\nPrécurseur de la stratégie de défense en proposant 12 techniques de prévention situationnelle."
+					},
+					{
+						"item": "Les textes qui la régissent"
+					},
+					{
+						"item": "La construction d’un cadre juridique pour la prévention situationnelle en France",
+						"textContent": "Article 11 de la loi nº 95-73 du 21 janvier 1995 d’orientation et de programmation relative à la sécurité : première mention d’une « <b>étude de sécurité publique</b> » obligatoire dans les grands projets de construction et d’urbanisme.\nⅨ de la première partie du rapport sur les orientations de la politique de sécurité intérieure annexé à la loi nº 2002-1094 du 29 août 2002 d’orientation et de programmation pour la sécurité intérieure : <b>définition de la prévention situationnelle</b> comme « <b>ensemble des mesures d’urbanisme, d’architecture ou techniques visant à prévenir la commission d’actes délictueux, ou à les rendre moins profitables.</b> »\nArticle 14 de la loi nº 2007-297 du 5 mars 2007 relative à la prévention de la délinquance : codification de l’obligation de joindre l’« <b>étude de sûreté et de sécurité publique</b> » au dossier de demande de permis de construire ou d’autorisation d’urbanisme (aujourd’hui article L. 114-1 du code de l’urbanisme).\nOrdonnance nº 2012-351 du 12 mars 2012 relative à la partie législative du <b>code de la sécurité intérieure</b>, et les différents décrets formant sa partie réglementaire, qui concentrent depuis lors la majorité des dispositions applicables notamment à la vidéoprotection (l’une des solutions techniques disponibles en prévention situationnelle)."
+					},
+					{
+						"item": "Identifier les ACTEURS et les MISSIONS de la prévention situationnelle",
+            "id": "identifier_les_acteurs"
+					},
+					{
+						"item": "Les référents et correspondants sûreté de la sécurité publique",
+						"textContent": "<b>Contexte et objectifs</b>\n<b>Les référents et correspondants sûreté du MI</b> sont des policiers ou gendarmes, choisis pour leur expérience pluridisciplinaire, déployés en réseau d'experts, formés à la connaissance des modes opératoire des délinquants et à la prévention situationnelle.\nLa prévention situationnelle s'applique sur l'ensemble du territoire national au bénéfice de tous nos partenaires (communes, éducation nationale, justice, bailleurs sociaux, entreprises publiques et privées stratégiques, transports publics, hôpitaux, etc...).\nLes policiers ou les gendarmes <b>référents ou correspondants sûreté doivent acquérir les connaissances méthodologiques, juridiques et techniques</b> indispensables pour développer les bonnes pratiques en matière de sûreté et <b>délivrer des préconisations de qualité</b>.\n<em>Réseau en développement constant depuis la première formation en 2007</em>\nPlus de 300 référents sûreté en activité au sein de la direction centrale de la sécurité publique;\n<em>Coordination avec les réseaux locaux et nationaux des correspondants sûreté</em>\nqui dispensent des conseils élémentaires de prévention situationnelle aux particuliers et aux commerçants.\n<em>Formation initiale commune avec la gendarmerie nationale</em>\n<b>Cinq semaines</b> à l’École nationale supérieure de la police ;\nLutte contre la malveillance allant de <b>l’incivilité à l’acte terroriste</b>\n<b>Évaluation stricte</b> à la fin de chaque module de formation.\n<br /><br />Un référent sûreté peut être désigné au sein d'une entreprise pour assurer la coordination et la mise en œuvre des mesures de sécurité et de sûreté.\nSon rôle sera tout aussi essentiel dans la protection des biens, des personnels et des informations sensibles de l'organisation en veillant à ce que les mesures de sécurité soient respectées et en agissant rapidement en cas de besoin.\n<em>Quelques-unes de ses missions et de ses responsabilités :</em>\n<b>1. Surveillance et Prévention</b> :\nSurveiller les activités et les comportements suspects.\nMettre en place des mesures préventives pour réduire les risques de vol, d'intrusion ou d'actes malveillants.\n<b>2. Formation et Sensibilisation</b> :\nFormer le personnel aux procédures de sécurité et de sûreté.\nSensibiliser les employés aux risques potentiels et aux bonnes pratiques.\n<b>3. Gestion des Situations d'Urgence</b> :\nAgir en cas d'incident (incendie, intrusion, etc.).\nCoordonner les actions de sécurité et de secours.\n<b>4. Communication avec les Autorités</b> :\nCollaborer avec les forces de l'ordre et les services de secours.\nAssurer la liaison avec les autorités compétentes en cas d'urgence.\n\nLe référent sûreté <b>choisit parmi quatre modes de restitution</b> en fonction de la complexité du site :\nla consultation\nl’évaluation\nle diagnostic\net l’audit\n<em>Principales compétences requises :</em>\n<b>1. Compétences relationnelles :</b>\nCapacité à dialoguer, écouter et collaborer avec les autres.\nTravail en équipe pour assurer une communication efficace.\n<b>2. Capacité à s'informer et à trier l'information :</b>\nÊtre capable de collecter des données pertinentes et de les analyser.\nSavoir distinguer les informations importantes des détails moins significatifs.\n<b>3. Esprit d'initiative :</b>\nÊtre proactif et capable de prendre des mesures préventives.\nProposer des solutions créatives pour améliorer la sécurité.\n<b>4. Capacité d'analyse et de synthèse :</b>\nÉvaluer les risques et les vulnérabilités.\nSynthétiser les informations pour élaborer des recommandations stratégiques permettant de garantir la sécurité des sites professionnels, des lieux publics et des habitations.\n<b>5. Très grande disponibilité</b> :\nÊtre prêt à intervenir rapidement en cas d'urgence.\nAssurer une présence régulière pour surveiller la sécurité.\n<b>6. Grande loyauté et discrétion :</b>\nRespecter la confidentialité des informations sensibles.\nAgir avec intégrité et professionnalisme.\n<b>7. Formation ou expérience en gestion de crise et prévention des techniques de malveillance :</b>\nAvoir des connaissances dans ces domaines est souhaité.\nComprendre les protocoles de sécurité et les meilleures pratiques.\n\nEn somme, le rôle du référent sûreté exige donc une combinaison de compétences techniques, relationnelles et stratégiques pour garantir la sécurité des sites professionnels, des lieux publics et des habitations."
+					}
+				]
+			}
+		]
+	},
+  "3": {
+    "title": "Déterminer les principes de la prévention situationnelle",
+    "id": "principes_prevention_situationnelle",
     "subtitles": [
-      {
-        "subtitle": "Forces de Sécurité de l’État",
-        "id": "force_securite_de_l_etat",
-        "textContent": "Article XII de la DÉCLARATION DES DROITS DE L'HOMME ET DU CITOYEN DE 1789. La garantie des droits de l'Homme et du Citoyen nécessite une force publique. Cette force est donc instituée pour l'avantage de tous et non pour l'utilité particulière de ceux auxquels elle est confiée.",
-        "items": [
-          {
-            "item": "La Police Nationale :",
-            "id": "police_nationale",
-            "textContent": "1ère Force de Sécurité en France : environ 250 000 effectifs\nZones urbaines : 20% du territoire national\n80% de la délinquance du territoire national"
-          },
-          {
-            "item": "La Gendarmerie Nationale :",
-            "id": "gendarmerie_nationale",
-            "textContent": "2ème Force de Sécurité en France: environ 100 000\nZones rurales : 80% du territoire nationale\n20% de la délinquance du territoire national"
-          }
-        ]
-      },
-      {
-        "subtitle": "Objectifs",
-        "id": "objectifs",
-        "textContent": "Réduire le sentiment d'insécurité de la population, que celui-ci soit justifié ou non\nEt améliorer les rapports entre les groupes sociaux"
-      },
-      {
-        "subtitle": "Moyens d’action",
-        "id": "moyens_d_action",
-        "textContent": "la prévention\nla dissuasion\net la répression",
-        "items": [
-          {
-            "item": "Le plan VIGIPIRATE",
-            "id": "le_plan_vigipirate",
-            "textContent": "VIGIlance Protection des Installations contre les Risques d’Attentats TErroristes\nUn des outils du dispositif français permanent de lutte contre le terrorisme.\nS’applique à tous les grands domaines d’activité de la société (les transports, la santé, l’alimentation, les réseaux d’énergie, la sécurité des systèmes d’information…).\nIl vise à associer tous les acteurs de la nation susceptibles de contribuer à la vigilance, à la prévention et à la protection contre la menace terroriste : l’État, les collectivités territoriales, les opérateurs, les citoyens."
-          }
-        ]
-      }
+
     ]
   }
 }

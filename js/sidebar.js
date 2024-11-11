@@ -7,13 +7,15 @@ const data = await fetch("./data/sidebar.json")
 	.then((data) => data);
 
 // Hydratation
-Object.keys(data).map((key, index) => {
+Object.keys(data).map((key) => {
+	let index = 1;
+
 	for (const titleItem of data[key]) {
 		const mainItem = createElement("ul");
 		const mainLink = createElement("a");
 
 		if (titleItem.subtitles.length) {
-			mainLink.textContent = `${index >= 10 ? index + 1 : `0${index + 1}`} - ${titleItem.title}`;
+			mainLink.textContent = `${index} - ${titleItem.title}`;
 			mainLink.href = titleItem.href;
 			mainItem.appendChild(mainLink);
 
@@ -55,5 +57,7 @@ Object.keys(data).map((key, index) => {
 		}
 
 		sidebar.appendChild(mainItem);
+
+		index++;
 	}
 });

@@ -9,20 +9,27 @@ export const createElement = (selector) => document.createElement(selector);
  * textContent: string;
  * id: string;
  * parent: HTMLElement;
- * }} 
+ * }}
  */
 export const insertElement = ({ element, textContent, id, parent }) => {
-  if (id) {
-    element.id = id;
-  }
-  
-  if (textContent.includes("\n")) {
-    textContent = textContent.replaceAll("\n", "<br />");
-    element.innerHTML = textContent;
+	if (id) {
+		element.id = id;
+	}
 
-  } else {
-    element.textContent = textContent;
-  }
+	if (
+		textContent &&
+		(textContent.includes("\n") ||
+			textContent.includes("</") ||
+			textContent.includes("<img"))
+	) {
+		textContent.includes("\n")
+			? (textContent = textContent.replaceAll("\n", "<br />"))
+			: null;
 
-  parent.appendChild(element);
-}
+		element.innerHTML = textContent;
+	} else {
+		element.textContent = textContent;
+	}
+
+	parent.appendChild(element);
+};
