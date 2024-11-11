@@ -4,13 +4,14 @@
 	/* colors */
 	--sea-blue: 2 70 177;
 	--dark-blue: 2 20 68;
+	--sky-blue: 0 170 250;
 	--foreground: 255 255 255;
 	--background: 0 0 0;
 	--background-alt: 0 9 125;
 
 	/* boundary */
 	--web-site-content-boundary: clamp(320px, 80%, 1280px);
-	--box-shadow: 0 0 4px rgb(var(--background) / 0.15);
+	--box-shadow: 0 15px 15px rgb(var(--background) / 0.25);
 	--transition: 0.3s;
 }
 
@@ -153,10 +154,57 @@ main {
 	}
 
 	& #website-introduction > div {
+    position: relative;
 		display: flex;
+    justify-content: flex-end;
 	}
 
-	#slides {
+  & #website-introduction figure {
+    position: absolute;
+    left: 0;
+  }
+
+  & .user-ids {
+    border: 1px solid rgb(var(--sea-blue));
+    border-radius: 30px;
+    max-width: 515px;
+    overflow: hidden;
+    background: rgb(var(--sky-blue));
+    box-shadow: var(--box-shadow);
+    
+    & h2,
+    & ul {
+      padding: 20px;
+    }
+
+    & h2 {
+      display: flex;
+      align-items: center;
+      gap: 20px;
+      font-size: 28px;
+      line-height: 42px;
+      color: rgb(var(--foreground));
+      background: rgb(var(--sea-blue));
+    }
+
+    & h2 svg {
+      width: 50px;
+      height: auto;
+      fill: rgb(var(--foreground));
+    }
+
+    & ul {
+      font-size: 18px;
+      line-height: 28px;
+      list-style: none;
+    }
+
+    & li:not(:last-child) {
+      margin-bottom: 10px;
+    }
+  }
+
+	& #slides {
 		.slide-container {
 			position: relative;
 			min-height: 100vh;
