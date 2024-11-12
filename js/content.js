@@ -121,14 +121,6 @@ Object.keys(data).map((key, index) => {
 				}
 			}
 		}
-
-		// Add a number to the slide.
-		const slideNumber = createElement("span");
-
-		slideNumber.textContent = index + 1;
-    slideNumber.classList.add("slide-number");
-
-		slideContainer.appendChild(slideNumber);
 	}
 });
 
