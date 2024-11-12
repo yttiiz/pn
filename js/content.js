@@ -11,7 +11,7 @@ const data = await fetch("./data/main.json")
 
 // Hydratation
 Object.keys(data).map((key, index) => {
-	const { title, subtitles, image, id } = data[key];
+	const { title, subtitles, image, id, textContent, video } = data[key];
 	const slideContainer = createElement("div");
 	const titleElement = createElement("h2");
 
@@ -25,6 +25,25 @@ Object.keys(data).map((key, index) => {
 	});
 
 	section.appendChild(slideContainer);
+
+  if (video) {
+    const { src } = video;
+    const videoElement = createElement("video");
+
+    videoElement.src = src;
+    videoElement.controls = true;
+    slideContainer.appendChild(videoElement);
+  }
+
+  if (textContent) {
+    const textContentElement = createElement("p");
+
+    insertElement({
+      element: textContentElement,
+      textContent,
+      parent: slideContainer,
+    });
+  }
 
   if (image) {
     const { src, alt } = image;

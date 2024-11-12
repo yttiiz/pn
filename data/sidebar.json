@@ -115,7 +115,7 @@
 							},
 							{
 								"item": "Identifier les ACTEURS et les MISSIONS de la prévention situationnelle",
-								"href":"#identifier_les_acteurs"
+								"href": "#identifier_les_acteurs"
 							},
 							{
 								"item": "Les référents et correspondants sûreté de la sécurité publique",
@@ -158,6 +158,28 @@
 							{
 								"item": "Huit haut principes d'actions",
 								"href": "#huit_haut_principe_action"
+							},
+							{
+								"item": "Des solutions techniques, humaines et organisationnelles",
+								"href": "#solutions_techniques_humaines"
+							}
+						]
+					}
+				}
+			]
+		},
+		{
+			"title": "Cybersécurité",
+			"href": "#cybersecurite",
+			"subtitles": [
+				{
+					"1": {
+						"subtitle": "",
+						"href": "",
+						"content": [
+							{
+								"item": "",
+								"href": ""
 							}
 						]
 					}
